@@ -1,0 +1,37 @@
+body{
+    color: white;
+    font-size: 21;
+    text-align: center;
+}
+#wrapper {
+    style=display: table;
+    width: 900;
+    height: 480;
+    overflow: hidden;
+    margin: auto;
+}
+#homePicture {
+    width: 480;
+    height: 480;
+    float: left;
+}
+#outer { 
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    display: table;
+    position: static;
+    margin-left: auto;
+}
+#middle { 
+    position: absolute; 
+    top: 50%; 
+    display: table-cell; 
+    vertical-align: middle; 
+    width: 100%;
+    position: static; 
+}
+#inner {
+    position: relative;
+    top: -50%;
+}

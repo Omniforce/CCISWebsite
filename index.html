@@ -1,0 +1,130 @@
+<link rel="stylesheet" type="text/ccs" href="main.css" />
+<link rel="stylesheet" type="text/ccs" href="home.css" />
+<link rel="stylesheet" type="text/ccs" href="fwotd.css" />
+<link rel="stylesheet" type="text/ccs" href="links.css" />
+
+<body>
+    <div id="buttons">
+        <button id="homeButton" class "button">Home</button>
+        <button id="fwotdButton" class "button">FWOTD Timer</button>
+        <button id="resumeButton" class "button">Resume</button>
+        <button id="linksButton" class "button">Links</button>
+        <button id="contactButton" class "button">Contact Me</button>
+    </div>
+    <div id="container">
+        <div class="content" id="homePage">
+            <div id="wrapper">
+                <div id="homePicture">
+                    <img src="images/home-image.jpg" alt="Picture of my face" width=480 height=480>
+                </div>
+                <div id="outer">
+                    <div id="middle">
+                        <div id="inner">
+                            	<h1>Brendan Ross</h1>
+
+                            <p>610-836-2768</p>
+                            <p>ross.brend@husky.neu.edu</p>
+                            <p>Boston, MA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="fwotdPage">
+			<div id="fwotdInfo">
+				Please enter your Summoner Name: <input type="text" name="SummonerName"></br>
+				Please select your Region:
+				<select id="region">
+					<option value="na">NA</option>
+					<option value="euw">EUW</option>
+					<option value="eune">EUNE</option>
+				</select></br>
+				<button id="submitButton">Submit</button>
+			</div>
+			<div id="fwotdResults">
+				<button id="backButton">Back</button>
+			</div>
+		</div>
+        <div class="content" id="linksPage">
+            <div id="content">
+                <div id="left">
+                    <div id="twitter">
+                        <div class="TextBlockLeft">
+                            <div class="BlankSpace"></div>
+                            <div class="IconName">Twitter</div>
+                        </div>
+                        <div class="IconImageLeft">	<a href="https://twitter.com/brendanros">
+						<img src="images/twitter-icon.png" alt = "twitter link" width=150 height=150></a>
+
+                        </div>
+                    </div>
+                    <div id="github">
+                        <div class="TextBlockLeft">
+                            <div class="BlankSpace"></div>
+                            <div class="IconName">GitHub</div>
+                        </div>
+                        <div class="IconImageLeft">	<a href="https://github.com/omniforce">
+						<img src="images/github-icon.png" alt = "github link" width=150 height=150></a>
+
+                        </div>
+                    </div>
+                    <div id="facebook">
+                        <div class="TextBlockLeft">
+                            <div class="BlankSpace"></div>
+                            <div class="IconName">Facebook</div>
+                        </div>
+                        <div class="IconImageLeft">	<a href="https://www.facebook.com/brendanros">
+						<img src="images/facebook-icon.png" alt = "facebook link" width=150 height=150></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="youtube">
+                        <div class="TextBlockRight">
+                            <div class="BlankSpace"></div>
+                            <div class="IconName">Youtube</div>
+                        </div>
+                        <div class="IconImageRight">	<a href="http://www.youtube.com/channel/UCVgqnzT26o_dxmzw3YSqPVw">
+						<img src="images/youtube-icon.png" alt = "youtube link" width=150 height=150></a>
+
+                        </div>
+                    </div>
+                    <div id="linkedIn">
+                        <div class="TextBlockRight">
+                            <div class="BlankSpace"></div>
+                            <div class="IconName">LinkedIn</div>
+                        </div>
+                        <div class="IconImageRight">	<a href="http://www.linkedin.com/profile/view?id=293941401&trk=nav_responsive_tab_profile">
+						<img src="images/linkedin-icon.jpg" alt = "linkedin link" width=150 height=150></a>
+
+                        </div>
+                    </div>
+                    <div id="twitch">
+                        <div class="TextBlockRight">
+                            <div class="BlankSpace"></div>
+                            <div class="IconName">Twitch</div>
+                        </div>
+                        <div class="IconImageRight">	<a href="http://www.twitch.tv/omniforce">
+						<img src="images/twitch-icon.png" alt = "twitch link" width=150 height=150></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="contactPage">
+            <div id="text">
+               	<h3>Please contact me at any of the following!</h3>
+               	<h1>Phone</h1>
+				Mobile: 610-836-2768
+                <br>Home: 610-647-7719
+               	<h1>Email</h1>
+				brendanros@gmail.com
+                <br>ross.brend@husky.neu.edu</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="content-switcher.js" type="text/javascript"></script>
+	<script src="fwotdCalculator" type="text/javascript"></script>
+</body>

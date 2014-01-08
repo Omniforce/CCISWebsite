@@ -1,0 +1,52 @@
+body{
+    color: white;
+    text-align: center;
+	font-size: 20;
+}
+
+#content {
+	width: 900;
+	margin: auto;
+}
+
+#left {
+	width: 300;
+	float: left;
+	margin: auto;
+}
+
+#right {
+	width: 300;
+	float: right;
+	margin: auto;
+}
+
+.TextBlockLeft {
+	width: 150;
+	height: 150;
+	float: left;
+}
+.IconImageLeft {
+	width: 150;
+	height: 150;
+	float: left;
+}
+
+.TextBlockRight {
+	width: 150;
+	height: 150;
+	float: right;
+}
+.IconImageRight {
+	width: 150;
+	height: 150;
+	float: right;
+}
+
+.IconName {
+	width: 150;
+	height: 150;
+}
+.BlankSpace {
+	height: 60;
+}
