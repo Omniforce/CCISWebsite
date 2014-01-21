@@ -34,7 +34,7 @@ function showFwotd() {
 }
 
 function showColor() {
-    window.open('colorconverter/color-converter.html')
+    window.open('ColorConverter/converter.html')
 }
 
 function showResume() {
