@@ -2,11 +2,11 @@
 <link rel="stylesheet" type="text/ccs" href="home.css" />
 <link rel="stylesheet" type="text/ccs" href="fwotd.css" />
 <link rel="stylesheet" type="text/ccs" href="links.css" />
-
 <body>
     <div id="buttons">
         <button id="homeButton" class "button">Home</button>
         <button id="fwotdButton" class "button">FWOTD Timer</button>
+        <button id="colorButton" class "button">Color Converter</button>
         <button id="resumeButton" class "button">Resume</button>
         <button id="linksButton" class "button">Links</button>
         <button id="contactButton" class "button">Contact Me</button>
@@ -20,7 +20,7 @@
                 <div id="outer">
                     <div id="middle">
                         <div id="inner">
-                            	<h1>Brendan Ross</h1>
+                             <h1>Brendan Ross</h1>
 
                             <p>610-836-2768</p>
                             <p>ross.brend@husky.neu.edu</p>
@@ -31,20 +31,22 @@
             </div>
         </div>
         <div class="content" id="fwotdPage">
-			<div id="fwotdInfo">
-				Please enter your Summoner Name: <input type="text" name="SummonerName"></br>
-				Please select your Region:
-				<select id="region">
-					<option value="na">NA</option>
-					<option value="euw">EUW</option>
-					<option value="eune">EUNE</option>
-				</select></br>
-				<button id="submitButton">Submit</button>
-			</div>
-			<div id="fwotdResults">
-				<button id="backButton">Back</button>
-			</div>
-		</div>
+            <div id="fwotdInfo">
+                Please enter your Summoner Name: 
+                <input type="text" name="SummonerName" id="summonerName">
+                </br> Please select your Region: 
+                <select id="region" name="region">
+                    <option value="na">NA</option>
+                    <option value="euw">EUW</option>
+                    <option value="eune">EUNE</option>
+                </select>
+                </br> <button id="submitButton">Submit</button>
+                <div id="Warning" style="display: none; color: red">Please enter a Summoner Name.</div>
+            </div>
+            <div id="fwotdResults">
+                <button id="backButton">Back</button>
+            </div>
+        </div>
         <div class="content" id="linksPage">
             <div id="content">
                 <div id="left">
@@ -53,8 +55,8 @@
                             <div class="BlankSpace"></div>
                             <div class="IconName">Twitter</div>
                         </div>
-                        <div class="IconImageLeft">	<a href="https://twitter.com/brendanros">
-						<img src="images/twitter-icon.png" alt = "twitter link" width=150 height=150></a>
+                        <div class="IconImageLeft"> <a href="https://twitter.com/brendanros">
+                      <img src="images/twitter-icon.png" alt = "twitter link" width=150 height=150></a>
 
                         </div>
                     </div>
@@ -63,8 +65,8 @@
                             <div class="BlankSpace"></div>
                             <div class="IconName">GitHub</div>
                         </div>
-                        <div class="IconImageLeft">	<a href="https://github.com/omniforce">
-						<img src="images/github-icon.png" alt = "github link" width=150 height=150></a>
+                        <div class="IconImageLeft"> <a href="https://github.com/omniforce">
+                  <img src="images/github-icon.png" alt = "github link" width=150 height=150></a>
 
                         </div>
                     </div>
@@ -73,8 +75,8 @@
                             <div class="BlankSpace"></div>
                             <div class="IconName">Facebook</div>
                         </div>
-                        <div class="IconImageLeft">	<a href="https://www.facebook.com/brendanros">
-						<img src="images/facebook-icon.png" alt = "facebook link" width=150 height=150></a>
+                        <div class="IconImageLeft"> <a href="https://www.facebook.com/brendanros">
+              <img src="images/facebook-icon.png" alt = "facebook link" width=150 height=150></a>
 
                         </div>
                     </div>
@@ -85,8 +87,8 @@
                             <div class="BlankSpace"></div>
                             <div class="IconName">Youtube</div>
                         </div>
-                        <div class="IconImageRight">	<a href="http://www.youtube.com/channel/UCVgqnzT26o_dxmzw3YSqPVw">
-						<img src="images/youtube-icon.png" alt = "youtube link" width=150 height=150></a>
+                        <div class="IconImageRight">    <a href="http://www.youtube.com/channel/UCVgqnzT26o_dxmzw3YSqPVw">
+         	 <img src="images/youtube-icon.png" alt = "youtube link" width=150 height=150></a>
 
                         </div>
                     </div>
@@ -95,8 +97,8 @@
                             <div class="BlankSpace"></div>
                             <div class="IconName">LinkedIn</div>
                         </div>
-                        <div class="IconImageRight">	<a href="http://www.linkedin.com/profile/view?id=293941401&trk=nav_responsive_tab_profile">
-						<img src="images/linkedin-icon.jpg" alt = "linkedin link" width=150 height=150></a>
+                        <div class="IconImageRight">    <a href="http://www.linkedin.com/profile/view?id=293941401&trk=nav_responsive_tab_profile">
+      		<img src="images/linkedin-icon.jpg" alt = "linkedin link" width=150 height=150></a>
 
                         </div>
                     </div>
@@ -105,8 +107,8 @@
                             <div class="BlankSpace"></div>
                             <div class="IconName">Twitch</div>
                         </div>
-                        <div class="IconImageRight">	<a href="http://www.twitch.tv/omniforce">
-						<img src="images/twitch-icon.png" alt = "twitch link" width=150 height=150></a>
+                        <div class="IconImageRight">    <a href="http://www.twitch.tv/omniforce">
+      		<img src="images/twitch-icon.png" alt = "twitch link" width=150 height=150></a>
 
                         </div>
                     </div>
@@ -115,16 +117,18 @@
         </div>
         <div class="content" id="contactPage">
             <div id="text">
-               	<h3>Please contact me at any of the following!</h3>
-               	<h1>Phone</h1>
-				Mobile: 610-836-2768
+                <h3>Please contact me at any of the following!</h3>
+
+                <h1>Phone</h1>
+                Mobile: 610-836-2768
                 <br>Home: 610-647-7719
-               	<h1>Email</h1>
-				brendanros@gmail.com
+                <h1>Email</h1>
+                brendanros@gmail.com
                 <br>ross.brend@husky.neu.edu</div>
         </div>
     </div>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="content-switcher.js" type="text/javascript"></script>
-	<script src="fwotdCalculator" type="text/javascript"></script>
+    <script src="fwotdCalculator" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 </body>
