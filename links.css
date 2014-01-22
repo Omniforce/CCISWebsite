@@ -1,12 +1,15 @@
 body{
     color: white;
     text-align: center;
-	font-size: 20;
 }
 
 #content {
 	width: 600;
 	margin: auto;
+}
+
+.table {
+	font-size: 20;
 }
 
 #leftTable {
