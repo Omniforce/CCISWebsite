@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/ccs" href="home.css" />
 <link rel="stylesheet" type="text/ccs" href="fwotd.css" />
 <link rel="stylesheet" type="text/ccs" href="links.css" />
+
 <body>
     <div id="buttons">
         <button id="homeButton" class "button">Home</button>
@@ -49,73 +50,54 @@
         </div>
         <div class="content" id="linksPage">
             <div id="content">
-                <div id="left">
-                    <div id="twitter">
-                        <div class="TextBlockLeft">
-                            <div class="BlankSpace"></div>
-                            <div class="IconName">Twitter</div>
-                        </div>
-                        <div class="IconImageLeft"> <a href="https://twitter.com/brendanros">
-                      <img src="images/twitter-icon.png" alt = "twitter link" width=150 height=150></a>
-
-                        </div>
-                    </div>
-                    <div id="github">
-                        <div class="TextBlockLeft">
-                            <div class="BlankSpace"></div>
-                            <div class="IconName">GitHub</div>
-                        </div>
-                        <div class="IconImageLeft"> <a href="https://github.com/omniforce">
-                  <img src="images/github-icon.png" alt = "github link" width=150 height=150></a>
-
-                        </div>
-                    </div>
-                    <div id="facebook">
-                        <div class="TextBlockLeft">
-                            <div class="BlankSpace"></div>
-                            <div class="IconName">Facebook</div>
-                        </div>
-                        <div class="IconImageLeft"> <a href="https://www.facebook.com/brendanros">
-              <img src="images/facebook-icon.png" alt = "facebook link" width=150 height=150></a>
-
-                        </div>
-                    </div>
-                </div>
-                <div id="right">
-                    <div id="youtube">
-                        <div class="TextBlockRight">
-                            <div class="BlankSpace"></div>
-                            <div class="IconName">Youtube</div>
-                        </div>
-                        <div class="IconImageRight">    <a href="http://www.youtube.com/channel/UCVgqnzT26o_dxmzw3YSqPVw">
-         	 <img src="images/youtube-icon.png" alt = "youtube link" width=150 height=150></a>
-
-                        </div>
-                    </div>
-                    <div id="linkedIn">
-                        <div class="TextBlockRight">
-                            <div class="BlankSpace"></div>
-                            <div class="IconName">LinkedIn</div>
-                        </div>
-                        <div class="IconImageRight">    <a href="http://www.linkedin.com/profile/view?id=293941401&trk=nav_responsive_tab_profile">
-      		<img src="images/linkedin-icon.jpg" alt = "linkedin link" width=150 height=150></a>
-
-                        </div>
-                    </div>
-                    <div id="twitch">
-                        <div class="TextBlockRight">
-                            <div class="BlankSpace"></div>
-                            <div class="IconName">Twitch</div>
-                        </div>
-                        <div class="IconImageRight">    <a href="http://www.twitch.tv/omniforce">
-      		<img src="images/twitch-icon.png" alt = "twitch link" width=150 height=150></a>
-
-                        </div>
-                    </div>
-                </div>
+            	<table id="leftTable" class="table">
+            		<tr id="row1">
+            			<td id="twitterName">Twitter</td>
+            			<td id="twitterPic">
+            				<a href="https://twitter.com/brendanros">
+            					<img src="images/twitter-icon.jpg" alt = "twitter link"></a>
+            			</td>
+            		</tr>
+            		<tr id="row2">
+            			<td id="githubName">GitHub</td>
+            			<td id="githubPic">
+            				<a href="https://github.com/omniforce">
+            					<img src="images/github-icon.png" alt = "github link"></a>
+            				</td>
+            		</tr>
+            		<tr id="row3">
+            			<td id="facebookName">Facebook</td>
+            			<td id="facebookPic">
+            				<a href="https://www.facebook.com/brendanros">
+            					<img src="images/facebook-icon.jpg" alt = "facebook link"></a>
+            			</td>
+            		</tr>
+            	</table>
+            	<table id="rightTable" class="table">
+            		<tr id="row1">
+            			<td id="youtubePic">
+            				<a href="http://www.youtube.com/channel/UCVgqnzT26o_dxmzw3YSqPVw">
+            					<img src="images/youtube-icon.jpg" alt = "youtube link"></a>
+            			</td>
+            			<td id="youtubeName">Youtube</td>
+            		</tr>
+            		<tr id="row2">
+            			<td id="linkedinPic">
+            				<a href="http://www.linkedin.com/profile/view?id=293941401&trk=nav_responsive_tab_profile"> <img src="images/linkedin-icon.jpg" alt = "linkedin link"></a>
+            			</td>
+            			<td id="linkedinName">LinkedIn</td>
+            		</tr>
+            		<tr id="row3">
+            			<td id="twitchPic">
+            				<a href="http://www.twitch.tv/omniforce">
+           						<img src="images/twitch-icon.png" alt = "twitch link"></a>
+            			</td>
+            			<td id="twitchName">Twitch</td>
+            		</tr>
+            	</table>
             </div>
-        </div>
-        <div class="content" id="contactPage">
+    	</div>
+   		<div class="content" id="contactPage">
             <div id="text">
                 <h3>Please contact me at any of the following!</h3>
 
