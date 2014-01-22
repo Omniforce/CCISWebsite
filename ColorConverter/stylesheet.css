@@ -25,7 +25,8 @@ body {
 }
 
 #hex {
-	padding: 100;
+	float: left;
+	width: 50%;
 }
 
 .slider{
@@ -35,4 +36,9 @@ body {
 
 #hexBox {
 	width: 65;
+}
+
+#closestColor {
+	float: left;
+	width: 50%;
 }

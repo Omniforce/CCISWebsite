@@ -84,4 +84,6 @@ function changeColor() {
 		{ queue: false, duration: 750 }
 	);
 
+	$("#colorName").text(ntc.name(hexValue)[1]);
+
 }
